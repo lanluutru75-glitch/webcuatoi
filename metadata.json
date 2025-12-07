@@ -1,0 +1,7 @@
+{
+  "name": "Hệ thống thi Hải quân",
+  "description": "Hệ thống thi trắc nghiệm trực tuyến dành cho Trường Cao đẳng Kỹ thuật Hải quân, tích hợp AI để tạo đề thi và quản lý kết quả.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
