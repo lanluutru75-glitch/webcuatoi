@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     const getData = async () => {
       // Kết nối vào bộ sưu tập 'questions' trên Firebase
-      const querySnapshot = await getDocs(collection(db, "questions"));
+      const querySnapshot = await getDocs(collection(db, "thihaiquan"));
       
       // Chuyển dữ liệu về dạng danh sách
       const data = querySnapshot.docs.map(doc => ({
