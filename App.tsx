@@ -12,8 +12,8 @@ import { Question, User as UserType, ExamResult, SavedExam, SystemConfig, TopicC
 import { generateExamQuestions } from './services/geminiService';
 import { saveToCloud, loadFromCloud } from './services/cloudService';
 
-// --- CONFIGURATION ---
-const LOGO_URL = "https://upload.wikimedia.org/wikipedia/commons/e/e6/Emblem_of_the_Vietnam_People%27s_Navy.svg";
+const SHARED_BIN_ID = "6934ff7c43b1c97be9dce68e";
+const SHARED_API_KEY = "$2a$10$VvYqj0KrK8QK/gdBu5hUwea7WWJz2zMc6GFDn2HZbfed9ohOa6QO.";
 const EXPIRATION_DATE = new Date('2025-12-30T23:59:59'); 
 
 const EXAM_PRESETS = [
